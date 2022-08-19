@@ -1,26 +1,100 @@
 <!DOCTYPE HTML>
 <html>
     <head>
+        <style>
+            body {
+                background: #A7E8BD;
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            #all-contents {
+              max-width: 800px;
+                margin: auto;
+            }
+         
+            /* navigation menu */
+            nav {
+                background: #FCBCB8;
+               margin: 0 auto;
+               margin-bottom: 20;
+                display: flex;
+                padding: 10px;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                color: white;
+                flex: 1;
+                margin: 0;
+            }
+            #nav-ul {
+                list-style-image: none;
+            }
+            .nav-li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+         
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar-img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            #interests {
+                border: 4px silver ridge;
+                padding: 8px;
+            }
+            h2, h3 {
+                margin: 0px;
+            }
+            .content {
+                color:#466365
+            }
+         </style>
         <title> Evan's Website </title>
     </head>
     
     <body>
-    <!--If there is website code above me, you are doing it wrong.-->
-    <div>
+    <!--If there is website code above me, you are doing it wrong. -->
+    <div id="All-Content">
         <nav>
             <h1> The Website Of All Time</h1>
+            <ul id="nav-ul"> 
+                <li>
+                    <a href="index.html"> Home </a>
+                </li>
+                <li>
+                    <a href=index.html> Portfolio </a>
+                </li>
+            </ul>
         </nav>
         <main>
             <!--Sidebar-->
-            <div>
-                <img src="https://www.firstbenefits.org/wp-content/uploads/2017/10/placeholder.png">
+            <div class="sidebar">
+                <img class="sidebar-img" src="https://www.firstbenefits.org/wp-content/uploads/2017/10/placeholder.png">
             </div>
             <!--Content-->
-            <div>
+            <div class="content">
                 <h2>Evan Robinson</h2>
                 <p>Student at Belle Chasse High</p>
                 <!--Interests-->
-                <div>
+                <div class="interests">
                     <h3>Interests</h3>
                     <ui>
                         <li>Writing</li>
