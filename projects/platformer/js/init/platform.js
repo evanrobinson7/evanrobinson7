@@ -41,7 +41,7 @@
     createPlatform(-200, 490);
     createPlatform(690, 490);
     createPlatform(-200, 300);
-    createPlatform(690, 100);
+    createPlatform(690, 95);
 
     // example:
     
