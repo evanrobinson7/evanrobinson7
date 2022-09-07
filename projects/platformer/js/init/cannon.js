@@ -35,7 +35,11 @@
     createCannon("right", 500, 10000);
     createCannon("right", 300, 10000);
     createCannon("right", 350, 10000);
+    createCannon("right", 400, 10000);
     createCannon("right", 450, 10000);
+    createCannon("right", 550, 10000);
+    createCannon("right", 600, 10000);
+    createCannon("right", 650, 10000);
 
     // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////
